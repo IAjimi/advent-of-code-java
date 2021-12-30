@@ -23,11 +23,11 @@ public class AOC02 {
         }
 
         // compute & print solutions
-        int part1_score = part1(horizontalChange, verticalChange);  // 1746616
-        int part2_score = part2(inputLength, horizontalChange, verticalChange); // 1741971043
+        int part1_solution = part1(horizontalChange, verticalChange);  // 1746616
+        int part2_solution = part2(inputLength, horizontalChange, verticalChange); // 1741971043
 
-        System.out.println("PART 1: " + part1_score);
-        System.out.println("PART 2: " + part2_score);
+        System.out.println("PART 1: " + part1_solution);
+        System.out.println("PART 2: " + part2_solution);
     }
 
     public static List<String> readFile(String filepath) {

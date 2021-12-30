@@ -7,10 +7,10 @@ public class AOC01 {
 
     public static void main(String[] args) {
         List<Integer> input = readFile("inputs/aoc1.txt");
-        int part1 = countIncrease(input);
-        int part2 = countSlidingWindowIncrease(input);
-        System.out.println("PART 1: " + part1);
-        System.out.println("PART 2: " + part2);
+        int part1_solution = countIncrease(input);
+        int part2_solution = countSlidingWindowIncrease(input);
+        System.out.println("PART 1: " + part1_solution); // 1233
+        System.out.println("PART 2: " + part2_solution); // 1275
     }
 
     public static List<Integer> readFile(String filepath) {
